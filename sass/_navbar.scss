@@ -1,0 +1,17 @@
+.navbar{
+    background-color: transparent !important;
+    .nav-link, .navbar-brand{
+        color: $thirdColor !important;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #fff;
+        transition: all 1s;
+    }
+    .nav-link:hover, .navbar-brand:hover{
+        transition: all 1s;
+        color: $primaryColor !important;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: $primaryColor;
+    }
+}

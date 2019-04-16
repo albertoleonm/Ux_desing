@@ -1,0 +1,81 @@
+.contenedor{
+    width: 100%;
+    height: 600px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+    
+    .h1-title{
+        color: $primaryColor !important;
+    }
+    .p-title{
+        color: $thirdColor !important;
+    }
+    .button-title{
+        transition: all .5s ease-in;
+        margin-top: 2rem;
+        border-radius: 10px;
+        color: $secondaryColor;
+        border-style: solid;
+        border-color: $secondaryColor;
+        background-color: #ffffff;
+        border-width: 1px;
+        padding: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .button-title:hover{
+        transition: all .5s ease-in;
+        color: #ffffff;
+        border-color: $secondaryColor;
+        background-color: $secondaryColor;
+    }
+}
+.image-title{
+    background: url('https://landkit.goodthemes.co/assets/img/illustrations/illustration-2.png')no-repeat;
+    background-size: cover;
+    border-radius: 100% 0% 55% 45% / 47% 44% 56% 53% ;
+    width: 100%;
+    height: 600px;
+}
+
+.h4-title{
+    margin-top: 1rem;
+    color: $primaryColor !important;
+}
+
+.icons{
+    font-size: 40px;
+    color: $thirdColor !important;
+}
+
+.icons-first{
+    font-size: 60px;
+    color: $thirdColor !important;
+    text-align: center !important;
+}
+
+.icons-first:hover{
+    color: $primaryColor !important;
+}
+
+.companies{
+    width: 100%;
+    height: 200px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-style: solid;
+    border-bottom-color: $grisColor;
+    border-top-color: $grisColor;
+    border-left-color: transparent;
+    border-right-color: transparent; 
+    border-width: 1px;
+    padding: 10px;
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+}

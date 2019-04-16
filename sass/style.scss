@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'navbar';
+@import 'portada';
+@import 'footer';
+body{
+    background-color: $fourColor;
+}
+
+h4, p{
+    color: $thirdColor !important;
+}
